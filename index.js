@@ -15,8 +15,7 @@ bot.on("message", (msg) => {
         inline_keyboard: [
           [
             { text: "Словарь", web_app: { url: WEB_URL } },
-            { text: "Избранное", web_app: { url: WEB_URL + "/my-words" } },
-            { text: "Квест", web_app: { url: WEB_URL + "quests" } },
+            { text: "Избранное", web_app: { url: WEB_URL + "/my-words" } },            
           ],
         ],
       },
